@@ -14,7 +14,14 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     ListView listView;
-    String[] fruitsname = {"Apple", "Orange", "passion"};
+    String[] fruitsname = {"\"Love is not about possession. Love is about appreciation.\" - Osho",
+            "\"The best love is the kind that awakens the soul and makes us reach for more, that plants a fire in our hearts and brings peace to our minds.\" - Nicholas Sparks",
+            "\"Love is composed of a single soul inhabiting two bodies.\" - Aristotle",
+            "\n" +
+                    "\"I have waited for this opportunity for more than half a century, to repeat to you once again my vow of eternal fidelity and everlasting love.\" - Gabriel Garcia Marquez",
+
+
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
